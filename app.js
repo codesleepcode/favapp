@@ -6,7 +6,7 @@ app.get('/', (req,res) => {
     res.send("<html><h1>welcome to my app</h1></html>");
 })
 
-app.listen(3000, ()=>{
+app.listen(80, ()=>{
     console.log(`listening....`);
 })
 
